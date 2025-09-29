@@ -1,0 +1,12 @@
+h1, h2, h3 {
+   background-color: navy;
+   color: white;
+}
+
+p{
+    color: navy;
+}
+
+nav{
+    background-color: rgb(200, 200, 200)
+}
