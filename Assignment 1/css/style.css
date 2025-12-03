@@ -234,4 +234,35 @@ figcaption span {
 }
 
 
+.reveal-card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
 
+
+
+.reveal-card .visible.content img,
+.reveal-card .hidden.content > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+.reveal-card .hidden.content .ui.card {
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;         
+  flex-direction: column;
+}
+
+
+
+.reveal-card .ui.card .image img {
+  width: auto;
+  height: 100px;           
+  object-fit: cover;
+}
